@@ -59,14 +59,10 @@ main {
 
 }
 
-/*lion foto*/
-.lion {
-    width: 90vh;
+#global-pages-img {
+    width: 80px;
     margin-left: auto;
     margin-right: auto;
-    display: block;
-
-
 }
 
 /* Footer container*/
