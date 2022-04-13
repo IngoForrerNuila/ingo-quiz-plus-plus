@@ -1,3 +1,4 @@
+/*Body Visuals*/
 body {
     background-image: url(/img/leaf-back-home.png);
     background-size: cover;
@@ -8,13 +9,13 @@ body {
 
 /* header container */
 header {
-    background-color: rgb(240, 53, 199);
+    background-color: rgb(170, 125, 74);
     color: rgb(243, 141, 141);
     align-content: center;
     align-items: center;
-     
-    
+        
 }
+
 /* main logo */
 .logo {
     margin-left: auto;
@@ -24,25 +25,24 @@ header {
     width: 100%;
     height: 200px;
     object-fit: contain
-    
+  
 }
+/*Nav-Bar-Container*/
 #nav-con {
     padding: 0.5%;
-    padding-bottom: 1%;
     text-decoration: none;
 
 
 }
-
+/*Nav-Buttons*/
 #nav-btn {
     width: 130px;
-    background-color: yellowgreen;
+    background-color: rgb(174, 224, 72);
     color: white;
     font-weight: bold;
     text-decoration: none;
           
 }
-
 
 /* Main content */
 main {
@@ -58,16 +58,16 @@ main {
     gap: 20px;
 
 }
-
+/*Project Images in every page*/
 #global-pages-img {
-    width: 80px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
 
 /* Footer container*/
 footer {
-    background-color: rgb(240, 53, 199);
+    background-color:  rgb(170, 125, 74);
     color: rgb(255, 255, 255);
     align-content: center;
     align-items: center;
@@ -75,19 +75,16 @@ footer {
      
 }
 
-
-
 /*Buttons Index*/
 .start-quiz-btn {
     text-decoration: none;
     width: 15vh;
     margin-left: auto;
     margin-right: auto;
-    background-color: yellowgreen;
+    background-color: rgb(174, 224, 72);
     color: white;
     font-weight: bold;
-    
-    
+       
 }
 
 /*NAVBAR HEADER*/
@@ -97,7 +94,7 @@ footer {
     text-align: center;
     text-decoration: none;
 }
-
+/*Video in Header*/
 #myVideo {
     object-fit: contain;
     object-fit: cover;

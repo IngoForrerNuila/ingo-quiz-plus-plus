@@ -19,13 +19,13 @@
     </video>
     <div id="nav-con" class="text-center">
         
-            <button type="button"  id="nav-btn" class="btn btn-primary"><a href="index.php">HOME</a></button>
+            <button type="button"  id="nav-btn" class="btn btn-primary"><a href="index.php" class="text-decoration-none">HOME</a></button>
         
         
-            <button type="button"  id="nav-btn" class="btn btn-primary"><a href="question1.php">START QUIZ</a></button>
+            <button type="button"  id="nav-btn" class="btn btn-primary"><a href="question1.php" class="text-decoration-none">START QUIZ</a></button>
         
         
-            <button type="button"  id="nav-btn" class="btn btn-primary"><a href="about.php">ABOUT</a></button>
+            <button type="button"  id="nav-btn" class="btn btn-primary"><a href="about.php" class="text-decoration-none">ABOUT</a></button>
         
     </div>
 
