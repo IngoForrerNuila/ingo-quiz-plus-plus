@@ -11,11 +11,11 @@
         
 
 
-        <img id="global-pages-img" class="responsive" src="/img/no-terminado.jpg">
+        <img id="global-pages-img" class="responsive" src="/img/polar-bears.jpg">
 
         <div id="nav-con" class="text-center">
         
-            <button type="button"  id="nav-btn" class="btn btn-primary"><a href="question3.php">ANSWER</a></button>
+            <button type="button"  id="nav-btn" class="btn btn-primary"><a href="question3.php" class="text-decoration-none">ANSWER</a></button>
                         
         </div>
 

@@ -8,11 +8,11 @@
         
 
 
-        <img id="global-pages-img" class="responsive" src="/img/no-terminado.jpg">
+        <img id="global-pages-img" class="responsive" src="/img/mammals.jpg">
 
         <div id="nav-con" class="text-center">
         
-            <button type="button"  id="nav-btn" class="btn btn-primary"><a href="result.php">ANSWER</a></button>
+            <button type="button"  id="nav-btn" class="btn btn-primary"><a href="result.php" class="text-decoration-none">ANSWER</a></button>
                         
         </div>
 

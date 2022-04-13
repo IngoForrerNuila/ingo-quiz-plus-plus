@@ -11,7 +11,7 @@
 
         <div id="nav-con" class="text-center">
         
-            <button type="button"  id="nav-btn" class="btn btn-primary"><a href="question1.php">START QUIZ</a></button>
+            <button type="button"  id="nav-btn" class="btn btn-primary"><a href="question1.php" class="text-decoration-none">START QUIZ</a></button>
                         
         </div>
 
