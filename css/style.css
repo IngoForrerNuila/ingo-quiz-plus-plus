@@ -1,0 +1,113 @@
+body {
+    background-image: url(/img/leaf-back-home.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: rgb(27, 207, 147);
+    color: darkslategray;
+}
+
+/* header container */
+header {
+    background-color: rgb(240, 53, 199);
+    color: rgb(243, 141, 141);
+    align-content: center;
+    align-items: center;
+     
+    
+}
+/* main logo */
+.logo {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin: 20px;
+    width: 100%;
+    height: 200px;
+    object-fit: contain
+    
+}
+#nav-con {
+    padding: 0.5%;
+    padding-bottom: 1%;
+    text-decoration: none;
+
+
+}
+
+#nav-btn {
+    width: 130px;
+    background-color: yellowgreen;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+          
+}
+
+
+/* Main content */
+main {
+    background-color: rgb(250, 192, 100);
+    color: rgb(255, 255, 255);
+    max-width: 1000px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 20px;
+
+}
+
+/*lion foto*/
+.lion {
+    width: 90vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+
+}
+
+/* Footer container*/
+footer {
+    background-color: rgb(240, 53, 199);
+    color: rgb(255, 255, 255);
+    align-content: center;
+    align-items: center;
+    padding: 2%;
+     
+}
+
+
+
+/*Buttons Index*/
+.start-quiz-btn {
+    text-decoration: none;
+    width: 15vh;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: yellowgreen;
+    color: white;
+    font-weight: bold;
+    
+    
+}
+
+/*NAVBAR HEADER*/
+.topnav {
+    color: green;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+
+#myVideo {
+    object-fit: contain;
+    object-fit: cover;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: -1;
+    
+}

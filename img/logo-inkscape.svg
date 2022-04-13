@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 793.70081 1122.5197"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="Logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.69664703"
+     inkscape:cx="396.90114"
+     inkscape:cy="560.54212"
+     inkscape:window-width="1920"
+     inkscape:window-height="932"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <rect
+       x="543.51861"
+       y="762.45234"
+       width="396.55349"
+       height="44.325039"
+       id="rect19601" />
+    <rect
+       x="71.738715"
+       y="389.85848"
+       width="97.667139"
+       height="47.499694"
+       id="rect4610" />
+    <rect
+       x="71.738716"
+       y="389.85849"
+       width="75.913433"
+       height="48.106059"
+       id="rect4610-3" />
+    <rect
+       x="71.738716"
+       y="389.85849"
+       width="128.28743"
+       height="46.774002"
+       id="rect4610-3-4" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       id="text4608"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect4610);fill:#008000;fill-opacity:1;stroke:none"
+       transform="matrix(2.6498073,0,0,2.6498073,-134.15813,-707.60179)"><tspan
+         x="71.738281"
+         y="425.25"
+         id="tspan38469"><tspan
+           style="font-family:Ani;-inkscape-font-specification:'Ani, Normal'"
+           id="tspan38467">World</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       id="text4608-1"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect4610-3);fill:#a05a2c;fill-opacity:1;stroke:none"
+       transform="matrix(4.605124,0,0,4.605124,-48.041861,-1513.9641)"><tspan
+         x="71.738281"
+         y="425.25"
+         id="tspan38473"><tspan
+           style="font-family:Ani;-inkscape-font-specification:'Ani, Normal'"
+           id="tspan38471">Wide</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       id="text4608-1-3"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Ani;-inkscape-font-specification:'Ani, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect4610-3-4);fill:#ff9955;fill-opacity:1;stroke:none"
+       transform="matrix(4.605124,0,0,4.605124,-169.6639,-1398.7254)"><tspan
+         x="71.738281"
+         y="424.41751"
+         id="tspan38475">Animals</tspan></text>
+    <text
+       xml:space="preserve"
+       id="text19599"
+       style="fill:black;fill-opacity:1;line-height:1.25;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;white-space:pre;shape-inside:url(#rect19601)" />
+  </g>
+</svg>
