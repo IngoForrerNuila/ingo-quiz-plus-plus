@@ -18,7 +18,7 @@
 
         <h1 class="text-center">TEST YOUR KNOWLEDGE ABOUT ANIMALS</h1>
         <h5 class="text-center">This is now time for you to play our super dupper quiz about animals
-            if you are enouch brave and wise, you will be able to complete it
+            if you are enouch brave and wise, you will be able to complete it, LOL!
         </h5>
 
         <img id="lion" class="responsive" src="/img/home-image.jpg">
