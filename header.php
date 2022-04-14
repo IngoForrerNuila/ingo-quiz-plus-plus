@@ -18,36 +18,47 @@
         <source src="/img/header-back-2.mp4" type="video/mp4">
     </video>
     <div id="nav-con" class="text-center">
-        
-            <button type="button"  id="nav-btn" class="btn btn-primary"><a href="index.php" class="text-decoration-none">HOME</a></button>
-        
-        
-            <button type="button"  id="nav-btn" class="btn btn-primary"><a href="question1.php" class="text-decoration-none">START QUIZ</a></button>
-        
-        
-            <button type="button"  id="nav-btn" class="btn btn-primary"><a href="about.php" class="text-decoration-none">ABOUT</a></button>
-        
+
+        <button type="button" id="nav-btn" class="btn btn-primary"><a href="index.php" class="text-decoration-none">HOME</a></button>
+
+
+        <button type="button" id="nav-btn" class="btn btn-primary"><a href="question1.php" class="text-decoration-none">START QUIZ</a></button>
+
+
+        <button type="button" id="nav-btn" class="btn btn-primary"><a href="about.php" class="text-decoration-none">ABOUT</a></button>
+
     </div>
 
 </header>
 
 <!--Conection with database-->
 
-<?php 
-$dbHOST= getenv('DB_HOST');
-$dbName= getenv('DB_NAME');
-$dbUser= getenv('DB_USER');
-$dbPassword= getenv('DB_PASSWORD');
+<?php
+$dbHOST = getenv('DB_HOST');
+$dbName = getenv('DB_NAME');
+$dbUser = getenv('DB_USER');
+$dbPassword = getenv('DB_PASSWORD');
 
-$dbConnection = new PDO ("mysql:host=$dbHOST;dbname=$dbName;charset=utf8",$dbUser,$dbPassword);
+$dbConnection = new PDO("mysql:host=$dbHOST;dbname=$dbName;charset=utf8", $dbUser, $dbPassword);
 
 
 //Preguntas
-$query=$dbConnection->query("SELECT ID, Text FROM Preguntas");
-$Preguntas=$query->fetchAll(PDO::FETCH_ASSOC);
+$query = $dbConnection->query("SELECT ID, Text FROM Preguntas");
+$Preguntas = $query->fetchAll(PDO::FETCH_ASSOC);
 
 $firstQuestion = $Preguntas[0];
-$secondQuestion= $Preguntas[1];
-$thirdQuestion= $Preguntas[2];
-?>
+$secondQuestion = $Preguntas[1];
+$thirdQuestion = $Preguntas[2];
 
+//Respuestas
+
+$query = $dbConnection->query("SELECT ID, Text FROM Respuestas");
+$Respuestas = $query->fetchAll(PDO::FETCH_ASSOC);
+
+$answerOne = $Respuestas[0];
+$answerTwo = $Respuestas[1];
+$answerThree = $Respuestas[2];
+
+
+
+?>

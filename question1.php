@@ -1,9 +1,9 @@
 <body>
     <main>
         <?php include("header.php");
-        print'<pre>';
+        /*print'<pre>';
         print_r($Preguntas);
-        print'</pre>';
+        print'</pre>';*/
 
         ?>
 
@@ -11,7 +11,10 @@
         
         <?php echo '<h1 class="mb-3 text-center">' . $firstQuestion['Text'] . '</h1>' ?>
 
-        
+        <?php echo '<h3 class="mb-3 text-center">' . $answerOne['Text'] . '</h3>' ?>
+        <?php echo '<h3 class="mb-3 text-center">' . $answerTwo['Text'] . '</h3>' ?>
+        <?php echo '<h3 class="mb-3 text-center">' . $answerThree['Text'] . '</h3>' ?>
+
         <img id="global-pages-img" class="responsive" src="/img/camels.jpg">
 
         <div id="nav-con" class="text-center">
