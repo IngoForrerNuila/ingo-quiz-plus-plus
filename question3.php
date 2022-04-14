@@ -8,7 +8,7 @@
         
 
 
-        <img id="global-pages-img" class="responsive" src="/img/mammals.jpg">
+        <img id="global-pages-img" class="responsive" src="/img/Hippo.jpg">
 
         <div id="nav-con" class="text-center">
         
