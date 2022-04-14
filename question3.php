@@ -5,10 +5,38 @@
         <h1 class="text-center">QUESTION 3</h1>
         
         <?php echo '<h1 class="mb-3 text-center">' . $thirdQuestion['Text'] . '</h1>' ?>
+
+        <div class="row justify-content-md-center text-center">
+            <input type="radio" name="user_level" id="rd1" value="1" />
+            <label for="rd1"><?php echo '<h3 class="mb-3 text-center">' . $answerSix['Text'] . '</h3>' ?>
+            </label>
+        </div>
+
+        <div class="row justify-content-md-center text-center">
+            <input type="radio" name="user_level" id="rd1" value="0" />
+            <label for="rd1"> <?php echo '<h3 class="mb-3 text-center">' . $answerSeven['Text'] . '</h3>' ?>
+            </label>
+        </div>
+
+        <div class="row justify-content-md-center text-center">
+            <input type="radio" name="user_level" id="rd1" value="1" />
+            <label for="rd1">  <?php echo '<h3 class="mb-3 text-center">' . $answerEight['Text'] . '</h3>' ?>
+            </label>
+        </div>
         
+        <div class="row justify-content-md-center text-center">
+            <input type="radio" name="user_level" id="rd1" value="1" />
+            <label for="rd1"> <?php echo '<h3 class="mb-3 text-center">' . $answerNine['Text'] . '</h3>' ?>
+            </label>
+        </div>
 
+        <div class="row justify-content-md-center text-center">
+            <input type="radio" name="user_level" id="rd1" value="1" />
+            <label for="rd1">  <?php echo '<h3 class="mb-3 text-center">' . $answerTen['Text'] . '</h3>' ?>
+            </label>
+        </div>
 
-        <img id="global-pages-img" class="responsive" src="/img/Hippo.jpg">
+        <img id="global-pages-img" class="responsive" src="/img/cow-mammals.jpg">
 
         <div id="nav-con" class="text-center">
         

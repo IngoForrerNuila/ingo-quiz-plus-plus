@@ -58,7 +58,12 @@ $Respuestas = $query->fetchAll(PDO::FETCH_ASSOC);
 $answerOne = $Respuestas[0];
 $answerTwo = $Respuestas[1];
 $answerThree = $Respuestas[2];
-
-
+$answerFour = $Respuestas[3];
+$answerFive = $Respuestas[4];
+$answerSix = $Respuestas[5];
+$answerSeven = $Respuestas[6];
+$answerEight = $Respuestas[7];
+$answerNine = $Respuestas[8];
+$answerTen = $Respuestas[9];
 
 ?>

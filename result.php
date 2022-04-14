@@ -11,7 +11,7 @@
         
 
 
-        <img id="global-pages-img" class="responsive" src="/img/no-terminado.jpg">
+        <img id="global-pages-img" class="responsive" src="/img/Hippo.jpg">
 
         <button type="button"  class="start-quiz-btn"><a href="index.php">FINISH</a></button>
 
