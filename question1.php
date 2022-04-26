@@ -1,14 +1,19 @@
 <?php
 session_start();
-$_SESSION["score"] = 0;
+if (isset($_POST['submit'])) {
+
+    $question1 = $_POST['question1'];
+
+    $_SESSION['question1'] = $question1;
+}
 ?>
 
 <body>
     <main>
         <?php include("header.php");
-        print'<pre>';
+        print '<pre>';
         print_r($answerOne);
-        print'</pre>';
+        print '</pre>';
 
         ?>
 
@@ -16,22 +21,22 @@ $_SESSION["score"] = 0;
 
         <?php echo '<h1 class="mb-3 text-center">' . $firstQuestion['Text'] . '</h1>' ?>
 
-   
-        
+
+        <form action="question2.php" name="" method="post">
             <div class="row justify-content-md-center text-center">
-                <input type="radio" name="user_level" id="rd1" value="1" />
+                <input type="radio" name="question1" id="rd1" value="1" />
                 <label for="rd1"><?php echo '<h3 class="mb-3 text-center">' . $answerOne['Text'] . '</h3>' ?>
                 </label>
             </div>
 
             <div class="row justify-content-md-center text-center">
-                <input type="radio" name="user_level" id="rd1" value="0" />
+                <input type="radio" name="question1" id="rd1" value="0" />
                 <label for="rd1"> <?php echo '<h3 class="mb-3 text-center">' . $answerTwo['Text'] . '</h3>' ?>
                 </label>
             </div>
 
             <div class="row justify-content-md-center text-center">
-                <input type="radio" name="user_level" id="rd1" value="0" />
+                <input type="radio" name="question1" id="rd1" value="0" />
                 <label for="rd1"> <?php echo '<h3 class="mb-3 text-center">' . $answerThree['Text'] . '</h3>' ?>
                 </label>
             </div>
@@ -45,7 +50,7 @@ $_SESSION["score"] = 0;
                 <button type="submit" id="nav-btn" class="btn btn-primary"><a href="question2.php" class="text-decoration-none">ANSWER</a></button>
 
             </div>
-       
+        </form>
 
         <?php include("footer.php"); ?>
     </main>

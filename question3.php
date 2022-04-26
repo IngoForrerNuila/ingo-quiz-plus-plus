@@ -1,10 +1,6 @@
 <?php
 session_start();
 
-/* PLEASE CHANGE 3 WITH THE NUMBER OF THE CORRECT ANSWER OF THE QUESTION BEFORE*/
-if ($_POST["answer"] == 1) {
-    $_SESSION["score"] += 1;
-}
 ?>
 
 <body>
@@ -15,7 +11,7 @@ if ($_POST["answer"] == 1) {
 
         <?php echo '<h1 class="mb-3 text-center">' . $thirdQuestion['Text'] . '</h1>' ?>
 
-        <form class="form" action="result.php" method="post">
+        <form action="result.php" name="" method="post">
 
             <div class="row justify-content-md-center text-center">
                 <input type="radio" name="user_level" id="rd1" value="1" />
