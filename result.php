@@ -6,7 +6,7 @@
         ?>
 
         <h1 class="text-center">RESULT</h1>
-        <h3 class="text-center">Ok, looks like you have finished the quiz, now you can go, goodbye... </h3>
+        <h3 class="text-center">Ok, looks like you have finished the quiz, now you can go, goodbye >:( </h3>
         
         
 
