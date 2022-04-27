@@ -38,7 +38,7 @@ $_SESSION['question3'] = $_POST['question3'];
 
 
 
-        <h3 class="text-center">Ok, you finished the quiz, you can go, goodbye >:( </h3>
+        <h3 class="text-center">Ok, you finished the quiz, goodbye >:( </h3>
 
        
 
