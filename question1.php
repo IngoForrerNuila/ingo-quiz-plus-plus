@@ -41,15 +41,16 @@ if (isset($_POST['submit'])) {
                 </label>
             </div>
 
+            <div id="nav-con" class="text-center">
+
+                <button type="submit" id="nav-btn" class="btn btn-primary" class="text-decoration-none">ANSWER</button>
+
+            </div>
 
 
             <img id="global-pages-img" class="responsive" src="/img/camels.jpg">
 
-            <div id="nav-con" class="text-center">
-
-                <button type="submit" id="nav-btn" class="btn btn-primary"><a href="question2.php" class="text-decoration-none">ANSWER</a></button>
-
-            </div>
+            
         </form>
 
         <?php include("footer.php"); ?>
